@@ -6,6 +6,8 @@ node {
 	git 'https://github.com/shanckv/jenkinslearning'
    }
   
-  
+stage('Compile-Package'){
+	sh 'mvn package'	
+}
 }
   
